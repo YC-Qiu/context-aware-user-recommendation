@@ -1,0 +1,88 @@
+app_name	app_category
+AOL	News_Search
+Amazon Shopping	Shopping
+Android In Call UI	Communication
+Army Men Strike	Games
+Badoo	Social_Dating
+Baseball Boy!	Games
+Brave Browser	Browser_Search
+Calculator	Utility
+Calendar	Productivity
+Calorie Counter	Health_Fitness
+Camera	Photo_Video
+Clean Master	Utility
+Clock	Utility
+Contacts	Communication
+DigiHUD Pro Speedometer	Utility
+Discord	Communication_Social
+EntertaiNow	Entertainment
+Facebook	Social
+Facebook Messenger	Communication_Social
+Faceu	Photo_Video
+Flickr	Photo_Video
+Flipboard Briefing	News
+Gmail	Communication_Email
+Google	Browser_Search
+Google Chrome	Browser_Search
+Google Drive	Productivity
+Google Photos	Photo_Video
+Google Play Music	Music_Audio
+Google Play Store	App_Store
+Hangouts	Communication_Social
+Hulu	Video_Streaming
+Ibotta	Shopping_Rewards
+Instagram	Social
+Kik	Communication_Social
+Lucktastic	Rewards_Games
+MAX Cleaner	Utility
+MUIQ Survey App	Survey_Rewards
+Maps	Maps_Navigation
+Messages	Communication
+Messaging	Communication
+Messenger Lite	Communication_Social
+MetroZone	News_Utility
+Microsoft Bing Search	Browser_Search
+Microsoft Outlook	Communication_Email
+Minesweeper Classic (Mines)	Games
+Movie Play Box	Video_Streaming
+Netflix	Video_Streaming
+OfferUp	Shopping_Marketplace
+Pandora Music	Music_Audio
+PayPal Mobile Cash	Finance
+Phone	Communication
+Pinterest	Social_Visual
+Pixlr	Photo_Video
+Podcast Addict	Music_Audio
+Quora	Social_Knowledge
+Receipt Hog	Shopping_Rewards
+Reddit	Social_Forum
+Reward Stash	Rewards
+Robinhood	Finance
+Samsung Email	Communication_Email
+Samsung Gallery	Photo_Video
+Samsung Internet Browser	Browser_Search
+Samsung Notes	Productivity
+Samsung Pay	Finance
+Settings	System
+Slidejoy	Rewards
+Snapchat	Social
+Spotify Music	Music_Audio
+SurveyCow	Survey_Rewards
+Swagbucks	Rewards
+Swagbucks Watch (TV)	Rewards_Video
+S’more	Rewards
+Telegram	Communication_Social
+Telegram X	Communication_Social
+Text One	Communication
+TextNow	Communication
+The PCH App	Rewards_Games
+Twitter	Social_News
+Verizon Messages	Communication
+Walmart	Shopping
+WeChat	Communication_Social
+WhatsApp Messenger	Communication_Social
+Words With Friends 2	Games
+Yahoo Mail	Communication_Email
+YouTube	Video_Streaming
+eBay	Shopping_Marketplace
+imo	Communication_Social

@@ -45,6 +45,7 @@ Important constraint:
 | `open_time` | datetime | Start time of the interaction (minimum timestamp within the interaction). |
 | `close_time` | datetime | End time of the interaction (maximum timestamp within the interaction). |
 | `duration(s)` | float (seconds) | Interaction duration in seconds, computed as `close_time - open_time`. |
+| `app_category` | string | Category label merged from `output/UniqueAppNames/app_category_mapping_87.txt` by exact match on `app_name`. |
 
 ## Planned Development Stages
 
@@ -95,6 +96,22 @@ Current notebook output file:
 
 This file is interaction-level (one row per `interaction_id`) and is filtered to keep records where `duration(s) >= 3`.
 
+It also includes app category labels in the same file (no separate category output file).
+
+### Category Mapping Inputs
+
+- `output/UniqueAppNames/unique_app_names.txt`
+	- deduplicated app list extracted from LSApp.
+- `output/UniqueAppNames/app_category_mapping_87.txt`
+	- tab-separated mapping file with exactly two columns: `app_name`, `app_category`.
+
+### Category Merge Rules
+
+1. Merge is exact-match on `app_name`.
+2. Do not infer categories in code.
+3. If any `app_name` has missing `app_category`, the notebook raises an error and stops saving.
+4. When no missing mappings are found, the filtered output file is saved with `app_category` included.
+
 
 ### Stage 2: Cluster Interpretation (Cautious)
 Interpret clusters as behavioral usage states rather than fixed emotions.
@@ -132,3 +149,36 @@ Example mapping ideas:
 	- `duration(s)`: interaction-level total span
 2. If you need pure interaction features for modeling, prefer `interaction_id`, `user_id`, `session_id`, `app_name`, `open_time`, `close_time`, and `duration(s)`.
 3. This output is already filtered with `duration(s) >= 3`, so very short interactions have been removed.
+
+
+## Progress
+
+### (Todo) User-day-level / Session-level
+Extract feature that represents a user's day/session
+
+Features such as:
+
+- total_duration
+- total_interactions
+- num_unique_apps
+- num_sessions
+- avg_session_duration
+- night_usage_ratio
+- social_duration_ratio
+- entertainment_duration_ratio
+- communication_duration_ratio
+- productivity_duration_ratio
+- shopping_duration_ratio
+- app_switch_count
+- category_entropy
+
+### (Todo) Clustering
+
+Model: 
+- KMeans
+- GaussianMixture
+- AgglomerativeClustering
+
+Evaluation:
+- silhouette_score
+- Davies-Bouldin score
