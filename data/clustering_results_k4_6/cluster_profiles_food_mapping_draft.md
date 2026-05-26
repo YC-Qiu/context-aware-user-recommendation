@@ -1,15 +1,67 @@
 # Cluster Profiles for Food Recommendation Integration
 
-> Draft cluster documentation for the food recommendation layer. These labels are behavioral summaries meant to sit on top of the existing LSApp clustering pipeline before ranking dishes from `data/food/food_dish_static_database_with_spend.csv`.
+> Active k=6 food-mapping draft. The recommendation layer should now use the `k=6` model from `data/clustering_results_k4_6/` as the default context signal.
 
-## Cluster 0: Connected Convenience Seekers
+## Status
+
+Adopt `k=6` from now on for the food recommendation prototype.
+
+Why:
+
+1. The k=6 run gives a cleaner split between a broad explorer group, an evening-focused group, a system-heavy low-switching group, and two clearly anomalous tail clusters.
+2. The k=6 result is the current active selection in the rerun outputs under `data/clustering_results_k4_6/`.
+3. The food layer should prioritize stable, explainable contexts over forcing the earlier k=5 semantic labels.
+
+## Cluster 0: Practical System-Locked Users
+
+Behavioral signals:
+
+- Very low app and category switching
+- High system usage
+- Low entropy
+- Low unique apps and categories
+- Low gap between interactions
+- Browser/search is relatively elevated compared with other low-engagement signals
+
+Behavioral story:
+
+These users are task-focused and narrow in their activity. The phone is being used as a utility tool rather than a browsing surface. The strongest cue is concentrated, low-switching behavior anchored in system-level or practical actions.
+
+Food direction:
+
+- Vibe: family
+- Expected spend: low, mid
+- Best fit: dependable, filling, reliable meals
+
+## Cluster 1: Night-Centered Light Users
+
+Behavioral signals:
+
+- Late-night usage lift
+- Lower evening and afternoon usage
+- Low switching
+- Low app/category diversity
+- Lower entropy
+
+Behavioral story:
+
+These users show narrow, low-intensity engagement that shifts toward late-night activity. They are not heavy browsers and are more likely to respond to simple, low-friction offers than to discovery-heavy UI.
+
+Food direction:
+
+- Vibe: convenience
+- Expected spend: low, mid
+- Best fit: late-night snackable, easy-order meals
+
+## Cluster 2: Connected Convenience Seekers
 
 Behavioral signals:
 
 - High app usage and app switching
-- High social/news engagement
-- High video and photo behavior
-- Moderate entertainment, shopping, and productivity usage
+- High app/category entropy
+- High unique apps and categories
+- Moderate social behavior
+- Slightly lower system dominance
 
 Behavioral story:
 
@@ -21,37 +73,19 @@ Food direction:
 - Expected spend: mid
 - Best fit: customizable, shareable, visually appealing meals
 
-## Cluster 1: Practical Home/Family Managers
+## Cluster 3: Balanced Mainstream Consumers
 
 Behavioral signals:
 
-- Low engagement across most categories
-- High browser usage
-- Lower social/news activity
-- Moderate utilities/productivity
-- Lower app switching
+- Moderately strong evening usage
+- Slightly lower late-night usage
+- Moderate switching
+- Moderate diversity and entropy
+- No extreme category spikes
 
 Behavioral story:
 
-When these consumers are on their phone, it is because they have a specific purpose. They are practical and task-focused, and not overly reliant on digital stimulation. They value reliability over novelty.
-
-Food direction:
-
-- Vibe: family
-- Expected spend: low, mid
-- Best fit: dependable, filling, nutritious, family-oriented meals
-
-## Cluster 2: Balanced Mainstream Consumers
-
-Behavioral signals:
-
-- Mostly medium engagement across all categories
-- Moderate social, shopping, entertainment, and productivity behavior
-- No major highs or lows in usage patterns
-
-Behavioral story:
-
-These consumers represent a broad middle-market audience. They are digitally comfortable, but not highly dependent on technology or driven by novelty. They value familiarity, flexibility, and options that appeal to multiple people or situations.
+These consumers represent a broad middle-market audience. They are digitally comfortable, but not highly dependent on novelty. They value familiarity, flexibility, and options that appeal to multiple people or situations.
 
 Food direction:
 
@@ -59,69 +93,54 @@ Food direction:
 - Expected spend: mid
 - Best fit: practical, consensus-driven meals with broad appeal
 
-## Cluster 3: Mobile-First Entertainment Snackers
+## Cluster 4: News Marathon Outliers
 
 Behavioral signals:
 
-- High mobile, games, and entertainment usage
-- High app engagement
-- Lower browser behavior
-- Moderate social engagement
+- Extreme total duration and session duration
+- Strong news engagement
+- High afternoon activity
+- Low diversity and low switching
 
 Behavioral story:
 
-These consumers use their phones primarily for entertainment and instant gratification. Their behavior suggests shorter attention spans, frequent engagement sessions, and a preference for quick, frictionless experiences.
+This is a statistically extreme outlier cluster. It is useful for analysis, but not a stable basis for product strategy.
 
 Food direction:
 
-- Vibe: convenience
-- Expected spend: low
-- Best fit: indulgent, snackable, highly craveable options
+- Vibe: provisional / not for primary strategy
+- Expected spend: provisional
+- Best fit: do not anchor the food recommender on this cluster
 
-## Cluster 4: Affluent Experience Seekers
+## Cluster 5: Health-Heavy Anomaly
 
 Behavioral signals:
 
-- Higher finance, shopping, and news engagement
-- Balanced browser and productivity usage
-- Higher evening and late-night activity
-- More deliberate and research-oriented behavior
+- Very high health ratio
+- Very high late-night usage
+- Low switching
+- Low diversity
+- Strongly atypical pattern relative to the main clusters
 
 Behavioral story:
 
-These consumers are likely more affluent, intentional, and experience-oriented. They view dining as part of lifestyle and identity expression, and they value quality, craftsmanship, elevated experiences, and curated meals.
+This is another anomaly cluster. It may be a genuine niche pattern or a data artifact, but it is too small to support a primary recommendation strategy.
 
 Food direction:
 
-- Vibe: comfort
-- Expected spend: high
-- Best fit: premium, curated, aspirational dining experiences
+- Vibe: provisional / not for primary strategy
+- Expected spend: provisional
+- Best fit: treat as a fallback-only segment
 
-## Cluster 5: Low-Engagement Routine Users
+## What to do next
 
-Behavioral signals:
-
-- Lower app, social, and entertainment engagement
-- Higher utility and system usage
-- Minimal app switching behavior
-- Consistent but low-intensity digital habits
-
-Behavioral story:
-
-These consumers appear highly routine-driven and efficiency-focused. Their digital behavior suggests they use technology primarily as a tool rather than a source of entertainment or discovery. Food choices are likely shaped by habit, affordability, and predictability.
-
-Food direction:
-
-- Vibe: convenience
-- Expected spend: low
-- Best fit: simple, accessible, predictable everyday meals
-
-## Integration Notes
-
-1. Treat these cluster labels as the semantic layer for the food ranking stage, not as permanent user types.
-2. Use `meal_type` from the food CSV to filter by time of day first, then apply cluster-based ranking weights.
-3. Use `expected_spend` as a second-pass filter or boost so the final list matches each cluster's spending posture.
-4. Cluster 0 and Cluster 2 should favor convenience-forward options with some visual appeal.
-5. Cluster 1 and Cluster 5 should favor reliable, routine, low-friction choices.
-6. Cluster 3 should surface snackable, fast, low-commitment items.
-7. Cluster 4 should surface premium, elevated, higher-intent items.
+1. Keep `k=6` as the active cluster model for the food prototype.
+2. Add a simple mapping layer from cluster id to food strategy:
+	- cluster 0 -> family / reliable
+	- cluster 1 -> convenience / late-night
+	- cluster 2 -> convenience / visual / trend-friendly
+	- cluster 3 -> family / balanced mainstream
+	- cluster 4 and 5 -> fallback only
+3. Rank dishes from `data/food/food_dish_static_database_with_spend.csv` with `meal_type` first, then `tag`, then `expected_spend`.
+4. Keep `expected_spend` as a soft constraint, not a hard filter, unless the requested mode is budget-sensitive.
+5. If you want a production-shaped prototype next, build a small inference script that takes today's user-day features, predicts the k=6 cluster, and returns the top 3 dishes with an explanation string.
