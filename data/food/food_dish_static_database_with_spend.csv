@@ -1,0 +1,513 @@
+dish,tag,meal_type,expected_spend
+Spaghetti and Meatballs,family,dinner,mid
+Mac and Cheese,comfort,dinner,low
+Chicken Alfredo,comfort,dinner,mid
+Beef Tacos,family,lunch,low
+Cheeseburger,convenience,lunch,mid
+Grilled Cheese Sandwich,comfort,lunch,low
+Tomato Soup,comfort,lunch,low
+Chicken Noodle Soup,comfort,lunch,low
+Pepperoni Pizza,family,lunch,low
+Margherita Pizza,family,lunch,low
+BBQ Ribs,comfort,dinner,mid
+Pulled Pork Sandwich,comfort,lunch,low
+Fried Chicken,comfort,dinner,mid
+Chicken Pot Pie,comfort,snack,mid
+Shepherd’s Pie,comfort,snack,mid
+Meatloaf,family,dinner,mid
+Mashed Potatoes,comfort,dinner,mid
+Roast Chicken,family,dinner,mid
+Pot Roast,family,dinner,mid
+Beef Stew,comfort,dinner,mid
+Chili,comfort,dinner,mid
+Cornbread,comfort,dinner,mid
+Biscuits and Gravy,comfort,breakfast,mid
+Pancakes,family,breakfast,mid
+Waffles,family,breakfast,mid
+French Toast,family,breakfast,low
+Eggs Benedict,comfort,breakfast,mid
+Breakfast Burrito,convenience,breakfast,low
+Omelet,convenience,breakfast,low
+Bagel with Cream Cheese,convenience,breakfast,low
+BLT Sandwich,convenience,lunch,low
+Club Sandwich,convenience,lunch,low
+Turkey Sandwich,convenience,lunch,low
+Ham and Cheese Sandwich,convenience,lunch,low
+Chicken Caesar Wrap,convenience,lunch,low
+Buffalo Chicken Wrap,convenience,lunch,low
+Caesar Salad,convenience,lunch,low
+Cobb Salad,convenience,lunch,low
+Greek Salad,convenience,lunch,low
+Chef Salad,convenience,lunch,low
+Tuna Salad Sandwich,convenience,lunch,low
+Egg Salad Sandwich,convenience,lunch,low
+Sloppy Joes,family,dinner,mid
+Hot Dogs,family,dinner,low
+Corn Dogs,convenience,dinner,low
+Chicken Fingers,family,dinner,mid
+Mozzarella Sticks,convenience,snack,mid
+Nachos,family,snack,mid
+Quesadilla,convenience,lunch,low
+Chicken Quesadilla,convenience,lunch,low
+Shrimp Tacos,family,snack,low
+Fish and Chips,comfort,snack,mid
+Clam Chowder,comfort,dinner,mid
+Lobster Roll,comfort,dinner,high
+Crab Cakes,comfort,snack,high
+Jambalaya,family,dinner,mid
+Gumbo,comfort,dinner,mid
+Red Beans and Rice,family,dinner,mid
+Shrimp and Grits,comfort,snack,mid
+Cajun Pasta,comfort,dinner,mid
+Chicken Parmesan,comfort,dinner,mid
+Lasagna,family,dinner,mid
+Baked Ziti,family,dinner,mid
+Stuffed Shells,family,dinner,mid
+Fettuccine Alfredo,comfort,dinner,mid
+Pesto Pasta,convenience,dinner,mid
+Ravioli,comfort,dinner,mid
+Gnocchi,comfort,dinner,mid
+Risotto,comfort,dinner,mid
+Minestrone Soup,comfort,lunch,low
+Bruschetta,convenience,dinner,mid
+Caprese Salad,convenience,lunch,low
+Chicken Marsala,comfort,dinner,mid
+Veal Parmesan,comfort,dinner,mid
+Eggplant Parmesan,comfort,dinner,mid
+Osso Buco,comfort,dinner,high
+Linguine with Clam Sauce,comfort,dinner,mid
+Carbonara,comfort,dinner,mid
+Bolognese Pasta,family,dinner,mid
+Chicken Curry,comfort,dinner,mid
+Butter Chicken,comfort,dinner,mid
+Tikka Masala,comfort,dinner,mid
+Saag Paneer,comfort,dinner,mid
+Biryani,family,dinner,mid
+Samosas,convenience,dinner,mid
+Naan,convenience,dinner,mid
+Dal Tadka,comfort,dinner,mid
+Chana Masala,comfort,dinner,mid
+Vindaloo,comfort,dinner,mid
+Korma,comfort,dinner,mid
+Palak Paneer,comfort,dinner,mid
+Aloo Gobi,comfort,dinner,mid
+Pad Thai,convenience,dinner,mid
+Drunken Noodles,comfort,dinner,mid
+Green Curry,comfort,dinner,mid
+Red Curry,comfort,dinner,mid
+Tom Yum Soup,comfort,lunch,low
+Pad See Ew,comfort,dinner,mid
+Pineapple Fried Rice,family,dinner,low
+Thai Basil Chicken,comfort,dinner,mid
+Spring Rolls,convenience,snack,mid
+Pho,comfort,dinner,mid
+Banh Mi,convenience,dinner,mid
+Vietnamese Vermicelli Bowl,convenience,lunch,mid
+Beef Bulgogi,comfort,dinner,mid
+Bibimbap,family,dinner,mid
+Kimchi Fried Rice,comfort,dinner,low
+Korean Fried Chicken,comfort,dinner,mid
+Japchae,comfort,dinner,mid
+Ramen,comfort,dinner,low
+Tonkotsu Ramen,comfort,dinner,low
+Shoyu Ramen,comfort,dinner,low
+Udon Noodle Soup,comfort,lunch,low
+Tempura,convenience,dinner,mid
+Sushi Rolls,convenience,snack,high
+California Roll,convenience,dinner,mid
+Spicy Tuna Roll,convenience,dinner,mid
+Teriyaki Chicken,comfort,dinner,mid
+Chicken Katsu,comfort,dinner,mid
+Yakisoba,comfort,dinner,mid
+Miso Soup,comfort,lunch,low
+Poke Bowl,convenience,lunch,high
+Orange Chicken,comfort,dinner,mid
+Kung Pao Chicken,comfort,dinner,mid
+General Tso’s Chicken,comfort,dinner,mid
+Sweet and Sour Pork,comfort,dinner,mid
+Fried Rice,convenience,dinner,low
+Lo Mein,comfort,dinner,mid
+Chow Mein,comfort,dinner,mid
+Dumplings,convenience,dinner,mid
+Egg Rolls,convenience,snack,mid
+Hot and Sour Soup,comfort,lunch,low
+Mapo Tofu,comfort,dinner,mid
+Peking Duck,comfort,dinner,high
+Sesame Chicken,comfort,dinner,mid
+Mongolian Beef,comfort,dinner,mid
+Beef and Broccoli,comfort,dinner,mid
+Cashew Chicken,comfort,dinner,mid
+Chicken Fried Rice,convenience,dinner,low
+Tofu Stir Fry,convenience,dinner,mid
+Vegetable Stir Fry,convenience,dinner,mid
+Tortilla Soup,comfort,lunch,low
+Chicken Tortilla Soup,comfort,lunch,low
+Enchiladas,family,dinner,mid
+Chicken Enchiladas,family,dinner,mid
+Beef Enchiladas,family,dinner,mid
+Tamales,comfort,dinner,mid
+Pozole,comfort,dinner,mid
+Carnitas Tacos,family,lunch,low
+Barbacoa Tacos,family,lunch,low
+Street Corn,convenience,dinner,mid
+Huevos Rancheros,comfort,dinner,mid
+Churros,comfort,snack,mid
+Empanadas,convenience,dinner,mid
+Cuban Sandwich,comfort,lunch,low
+Ropa Vieja,comfort,dinner,mid
+Arroz con Pollo,family,dinner,mid
+Paella,family,dinner,high
+Gazpacho,convenience,dinner,mid
+Patatas Bravas,convenience,dinner,mid
+Croquettes,convenience,dinner,mid
+Moussaka,comfort,dinner,mid
+Gyros,convenience,lunch,mid
+Souvlaki,convenience,dinner,mid
+Falafel Wrap,convenience,lunch,low
+Hummus Plate,convenience,dinner,mid
+Shawarma,comfort,dinner,mid
+Chicken Shawarma,comfort,dinner,mid
+Beef Shawarma,comfort,dinner,mid
+Tabbouleh,convenience,dinner,mid
+Stuffed Grape Leaves,convenience,dinner,mid
+Lentil Soup,comfort,lunch,low
+Couscous,family,dinner,mid
+Tagine,comfort,dinner,mid
+Moroccan Chicken,comfort,dinner,mid
+Shakshuka,comfort,breakfast,mid
+Pierogi,comfort,snack,mid
+Cabbage Rolls,comfort,snack,mid
+Borscht,comfort,dinner,mid
+Chicken Paprikash,comfort,dinner,mid
+Goulash,comfort,dinner,mid
+Schnitzel,comfort,dinner,mid
+Bratwurst,family,dinner,mid
+Soft Pretzel,convenience,snack,mid
+French Onion Soup,comfort,lunch,low
+Croque Monsieur,comfort,dinner,mid
+Quiche Lorraine,comfort,breakfast,mid
+Coq au Vin,comfort,dinner,mid
+Beef Bourguignon,comfort,dinner,mid
+Ratatouille,comfort,dinner,mid
+Crepes,family,breakfast,mid
+Duck Confit,comfort,dinner,high
+Croissants,convenience,dinner,mid
+Chicken Salad,convenience,lunch,low
+Pasta Salad,family,lunch,low
+Potato Salad,family,lunch,low
+Coleslaw,convenience,dinner,mid
+Deviled Eggs,family,breakfast,mid
+Baked Beans,family,dinner,mid
+Rice Pilaf,convenience,dinner,mid
+Stuffed Peppers,family,dinner,mid
+Chicken and Rice Casserole,comfort,dinner,mid
+Tuna Casserole,comfort,dinner,mid
+Green Bean Casserole,family,dinner,mid
+Sweet Potato Casserole,family,dinner,mid
+Broccoli Cheddar Soup,comfort,lunch,low
+Loaded Baked Potato Soup,comfort,lunch,low
+Chicken and Dumplings,comfort,dinner,mid
+Chicken Fried Steak,comfort,dinner,high
+Country Ham and Eggs,comfort,breakfast,mid
+Shrimp Po Boy,comfort,snack,mid
+Reuben Sandwich,comfort,lunch,low
+Patty Melt,comfort,dinner,mid
+French Dip Sandwich,comfort,snack,low
+Monte Cristo Sandwich,comfort,lunch,low
+Chicken Philly Cheesesteak,comfort,dinner,high
+Philly Cheesesteak,comfort,dinner,high
+Bacon Cheeseburger,comfort,lunch,mid
+Mushroom Swiss Burger,comfort,lunch,mid
+Turkey Burger,convenience,lunch,mid
+Veggie Burger,convenience,lunch,mid
+Black Bean Burger,convenience,lunch,mid
+Impossible Burger,convenience,lunch,mid
+Salmon Burger,convenience,lunch,high
+Fish Tacos,family,lunch,low
+Crispy Chicken Sandwich,comfort,lunch,low
+Chicken Wings,family,snack,mid
+Buffalo Wings,family,snack,mid
+Garlic Parmesan Wings,family,snack,mid
+BBQ Chicken Pizza,family,lunch,low
+Hawaiian Pizza,family,lunch,low
+White Pizza,family,lunch,low
+Deep Dish Pizza,family,lunch,low
+Thin Crust Pizza,family,lunch,low
+Stuffed Crust Pizza,family,lunch,low
+Pepper Steak,comfort,dinner,high
+Salisbury Steak,comfort,dinner,high
+Beef Stroganoff,comfort,dinner,mid
+Swedish Meatballs,comfort,dinner,mid
+Turkey Meatballs,family,dinner,mid
+Lemon Chicken,comfort,dinner,mid
+Chicken Piccata,comfort,dinner,mid
+Honey Garlic Chicken,comfort,dinner,mid
+Baked Salmon,family,dinner,high
+Teriyaki Salmon,comfort,dinner,high
+Fish Curry,comfort,dinner,mid
+Shrimp Scampi,comfort,snack,high
+Seafood Paella,family,dinner,high
+Cioppino,comfort,dinner,high
+Ceviche,convenience,dinner,mid
+Pasta Primavera,convenience,dinner,mid
+Vegetable Lasagna,family,dinner,mid
+Mushroom Risotto,comfort,dinner,mid
+Spinach Ravioli,comfort,dinner,mid
+Butternut Squash Soup,comfort,lunch,low
+Pumpkin Soup,comfort,lunch,low
+Chicken Caesar Pizza,family,lunch,low
+Taco Salad,convenience,lunch,low
+Southwest Chicken Bowl,convenience,lunch,mid
+Burrito Bowl,convenience,lunch,low
+Pesto Chicken Sandwich,convenience,lunch,low
+Avocado Toast,convenience,breakfast,low
+Breakfast Sandwich,convenience,breakfast,low
+Egg Muffins,convenience,dinner,mid
+Overnight Oats,convenience,breakfast,low
+Granola Bowl,convenience,breakfast,mid
+Smoothie Bowl,convenience,lunch,mid
+Fruit Salad,convenience,lunch,low
+Yogurt Parfait,convenience,breakfast,low
+Chicken Sausage Pasta,comfort,dinner,mid
+Sausage and Peppers,comfort,dinner,mid
+Jerk Chicken,comfort,dinner,mid
+Oxtail Stew,comfort,dinner,mid
+Curry Goat,comfort,dinner,mid
+Ackee and Saltfish,comfort,dinner,mid
+Fried Plantains,convenience,dinner,mid
+Pupusas,comfort,dinner,mid
+Arepas,comfort,dinner,mid
+Feijoada,comfort,dinner,mid
+Chimichurri Steak,comfort,dinner,high
+Chicken Milanese,comfort,dinner,mid
+Lomo Saltado,comfort,dinner,mid
+Pernil,comfort,dinner,mid
+Arancini,convenience,dinner,mid
+Chicken Biryani,family,dinner,mid
+Vegetable Biryani,family,dinner,mid
+Beef Rendang,comfort,dinner,mid
+Nasi Goreng,comfort,dinner,mid
+Laksa,comfort,dinner,mid
+Satay Chicken,convenience,dinner,mid
+Bao Buns,convenience,dinner,mid
+Char Siu Pork,comfort,dinner,mid
+Congee,comfort,dinner,mid
+Scallion Pancakes,convenience,breakfast,mid
+Cold Sesame Noodles,convenience,dinner,mid
+Chicken Lo Mein,comfort,dinner,mid
+Pork Fried Rice,convenience,dinner,low
+Dan Dan Noodles,comfort,dinner,mid
+Szechuan Beef,comfort,dinner,mid
+Coconut Curry Soup,comfort,lunch,low
+Turkey Chili,comfort,dinner,mid
+White Chicken Chili,comfort,dinner,mid
+Vegetarian Chili,comfort,dinner,mid
+Stuffed Mushrooms,convenience,snack,mid
+Spinach Artichoke Dip,convenience,snack,mid
+Buffalo Chicken Dip,convenience,snack,mid
+Pigs in a Blanket,convenience,dinner,mid
+Mini Quiches,convenience,breakfast,mid
+Chicken Satay,convenience,dinner,mid
+Mezze Platter,convenience,dinner,mid
+Charcuterie Board,convenience,snack,mid
+Baked Brie,convenience,snack,mid
+Fried Pickles,convenience,snack,mid
+Onion Rings,convenience,snack,mid
+Loaded Nachos,family,snack,mid
+Walking Tacos,family,lunch,low
+Breakfast Casserole,family,breakfast,mid
+Hash Brown Casserole,comfort,breakfast,mid
+Sausage Gravy and Biscuits,comfort,breakfast,mid
+Chicken Biscuit Sandwich,comfort,breakfast,low
+Breakfast Tacos,family,breakfast,low
+Huevos Divorciados,comfort,dinner,mid
+Steak and Eggs,comfort,breakfast,high
+Biscuits,comfort,breakfast,mid
+Cinnamon Rolls,comfort,breakfast,mid
+Apple Pie,comfort,snack,mid
+Peach Cobbler,comfort,dinner,mid
+Banana Pudding,comfort,snack,mid
+Bread Pudding,comfort,snack,mid
+Rice Pudding,comfort,snack,mid
+Chocolate Lava Cake,comfort,snack,mid
+Brownies,comfort,snack,mid
+Chocolate Chip Cookies,comfort,snack,mid
+Oatmeal Cookies,comfort,snack,mid
+Snickerdoodles,comfort,dinner,mid
+Cheesecake,comfort,snack,mid
+Tiramisu,comfort,dinner,high
+Cannoli,comfort,snack,mid
+Baklava,comfort,snack,mid
+Panna Cotta,comfort,dinner,mid
+Tres Leches Cake,comfort,snack,mid
+Choco Tacos,comfort,lunch,low
+Ice Cream Sundae,comfort,snack,mid
+Milkshake,comfort,snack,mid
+Root Beer Float,comfort,snack,mid
+Chicken and Waffles,comfort,breakfast,mid
+Hot Chicken Sandwich,comfort,lunch,low
+Nashville Hot Chicken,comfort,dinner,mid
+Smoked Brisket,comfort,dinner,high
+Burnt Ends,comfort,dinner,high
+BBQ Pulled Chicken,comfort,dinner,mid
+Tri Tip Sandwich,comfort,lunch,low
+Turkey Club,convenience,dinner,mid
+Panini,convenience,lunch,mid
+Italian Sub,convenience,lunch,mid
+Meatball Sub,comfort,lunch,mid
+Chicken Panini,convenience,lunch,mid
+Caprese Sandwich,convenience,lunch,low
+Roast Beef Sandwich,convenience,lunch,low
+French Bread Pizza,convenience,lunch,low
+Mini Tacos,convenience,lunch,low
+Frozen Burrito,convenience,lunch,low
+Instant Ramen,convenience,dinner,low
+Microwave Mac and Cheese,convenience,dinner,low
+Chicken Nuggets,convenience,dinner,low
+Fish Sticks,convenience,snack,low
+Frozen Pizza,convenience,lunch,low
+Potstickers,convenience,dinner,mid
+Rice and Beans,family,dinner,mid
+Chicken Kebabs,family,dinner,mid
+Steak Kebabs,family,dinner,high
+Vegetable Kebabs,family,dinner,mid
+Stuffed Zucchini,family,dinner,mid
+Egg Fried Rice,convenience,dinner,low
+Chicken Soup,comfort,lunch,low
+Matzo Ball Soup,comfort,lunch,low
+Latkes,comfort,breakfast,mid
+Corn Chowder,comfort,dinner,mid
+Ham and Bean Soup,comfort,lunch,low
+Split Pea Soup,comfort,lunch,low
+White Bean Soup,comfort,lunch,low
+Turkey Soup,comfort,lunch,low
+Soba Noodles,comfort,dinner,mid
+Pork Chops and Applesauce,comfort,dinner,mid
+Ham Dinner,family,dinner,mid
+Prime Rib,comfort,dinner,high
+Beef Wellington,comfort,dinner,high
+Stuffed Chicken Breast,comfort,dinner,mid
+Chicken Kiev,comfort,dinner,mid
+Orange Roughy,family,dinner,mid
+Tilapia Tacos,family,lunch,low
+Baked Cod,family,dinner,mid
+Crispy Tofu Bowl,convenience,lunch,mid
+Mediterranean Bowl,convenience,lunch,mid
+Harvest Grain Bowl,convenience,lunch,mid
+Chicken Pesto Pasta,comfort,dinner,mid
+Steak Fajitas,family,dinner,high
+Chicken Fajitas,family,dinner,mid
+Shrimp Fajitas,family,snack,mid
+Taco Pizza,family,lunch,low
+Breakfast Pizza,family,breakfast,low
+Lentil Curry,comfort,dinner,mid
+Vegetable Soup,comfort,lunch,low
+Chicken Rice Soup,comfort,lunch,low
+Pork Carnitas Bowl,convenience,lunch,mid
+Salmon Rice Bowl,convenience,lunch,high
+Teriyaki Bowl,convenience,lunch,mid
+Crispy Rice Salad,convenience,lunch,low
+Kale Caesar Salad,convenience,lunch,low
+Asian Chicken Salad,convenience,lunch,low
+Wedge Salad,convenience,lunch,low
+Chicken Gyro,convenience,lunch,mid
+Beef Gyro,convenience,lunch,mid
+Loaded Fries,comfort,snack,low
+Chili Cheese Fries,comfort,snack,low
+Poutine,comfort,dinner,mid
+Bangers and Mash,comfort,dinner,mid
+Scotch Eggs,comfort,breakfast,mid
+Chicken Tikka Wrap,convenience,lunch,low
+Paneer Wrap,convenience,lunch,low
+Turkey Pot Pie,comfort,snack,mid
+Cottage Pie,comfort,snack,mid
+Lobster Bisque,comfort,dinner,high
+Shrimp Alfredo,comfort,snack,mid
+Seafood Gumbo,comfort,dinner,high
+Chicken Étouffée,comfort,dinner,mid
+Dirty Rice,comfort,dinner,mid
+Blackened Catfish,comfort,dinner,mid
+Chicken Adobo,comfort,dinner,mid
+Pork Adobo,comfort,dinner,mid
+Sisig,comfort,dinner,mid
+Bibingka,comfort,dinner,mid
+Spam Musubi,convenience,lunch,mid
+Kalua Pork,comfort,dinner,mid
+Loco Moco,comfort,dinner,mid
+Teriyaki Beef Bowl,convenience,lunch,mid
+Spam Fried Rice,convenience,dinner,low
+Chicken Rice Bowl,convenience,lunch,mid
+Turkey Wrap,convenience,lunch,low
+Veggie Wrap,convenience,lunch,low
+Greek Chicken Bowl,convenience,lunch,mid
+Chicken Burrito,family,lunch,low
+Beef Burrito,family,lunch,low
+Carnitas Burrito,family,lunch,low
+Steak Burrito,family,lunch,high
+Tofu Burrito,convenience,lunch,low
+Breakfast Burrito Bowl,convenience,breakfast,low
+Chicken Taco Bowl,convenience,lunch,mid
+Pasta Carbonara,comfort,dinner,mid
+Rigatoni Vodka,comfort,dinner,mid
+Bucatini Amatriciana,comfort,dinner,mid
+Chicken Florentine,comfort,dinner,mid
+Creamed Spinach,comfort,dinner,mid
+Au Gratin Potatoes,comfort,dinner,mid
+Scalloped Potatoes,comfort,dinner,mid
+Chicken Stuffing Casserole,comfort,dinner,mid
+Turkey and Stuffing,comfort,dinner,mid
+Roasted Vegetables,family,dinner,mid
+Garlic Bread,family,dinner,mid
+Stuffing,family,dinner,mid
+Macaroni Salad,family,lunch,low
+Fried Rice Bowl,convenience,lunch,low
+Chicken Schnitzel,comfort,dinner,mid
+Turkey Schnitzel,comfort,dinner,mid
+Braised Short Ribs,comfort,dinner,high
+Potato Pancakes,comfort,breakfast,mid
+Shrimp Fried Rice,convenience,snack,low
+Tofu Fried Rice,convenience,dinner,low
+Chicken Fried Rice Bowl,convenience,lunch,low
+Spicy Chicken Sandwich,comfort,lunch,low
+Breakfast Quesadilla,convenience,breakfast,low
+Ham Omelet,convenience,breakfast,low
+Denver Omelet,convenience,breakfast,low
+Spinach Omelet,convenience,breakfast,low
+Turkey Chili Bowl,comfort,lunch,mid
+Chicken Parmesan Sandwich,comfort,lunch,low
+Eggplant Sandwich,convenience,lunch,low
+Italian Wedding Soup,comfort,lunch,low
+Wedding Soup,comfort,lunch,low
+Beef Barley Soup,comfort,lunch,low
+Chicken Orzo Soup,comfort,lunch,low
+Turkey Noodle Soup,comfort,lunch,low
+BBQ Meatballs,comfort,dinner,mid
+Sweet and Sour Meatballs,comfort,dinner,mid
+Mini Meatloaf,comfort,dinner,mid
+Chicken Sliders,family,snack,low
+Cheeseburger Sliders,family,snack,low
+Pulled Pork Sliders,family,snack,low
+BBQ Nachos,family,snack,mid
+Chicken Flatbread,convenience,snack,mid
+Margherita Flatbread,convenience,snack,mid
+Steak Flatbread,convenience,snack,high
+Turkey Melt,comfort,dinner,mid
+Ham Melt,comfort,dinner,mid
+Patatas Alioli,convenience,dinner,mid
+Garlic Shrimp,convenience,snack,mid
+Tuna Melt,comfort,dinner,mid
+Chicken Club Wrap,convenience,lunch,low
+Crispy Chicken Wrap,convenience,lunch,low
+Mediterranean Pasta,convenience,dinner,mid
+Orzo Salad,convenience,lunch,low
+Farro Bowl,convenience,lunch,mid
+Quinoa Bowl,convenience,lunch,mid
+Thai Peanut Noodles,comfort,dinner,mid
+Sesame Chicken Bowl,convenience,lunch,mid
+Orange Beef,comfort,dinner,mid
+Chicken Stir Fry Bowl,convenience,lunch,mid
+Coconut Shrimp,comfort,snack,mid
+Sweet Potato Fries,convenience,snack,low
+Loaded Potato Skins,comfort,dinner,mid
+Bacon Mac and Cheese,comfort,dinner,low
+Truffle Fries,convenience,snack,low
